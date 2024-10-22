@@ -1,0 +1,27 @@
+{
+  "name": "music-festival",
+  "version": "1.0.0",
+  "description": "Proyecto con SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muxanz/music-festival.git"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "Gulp"
+  ],
+  "author": "Samuel A. Florez @muxanz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muxanz/music-festival/issues"
+  },
+  "homepage": "https://github.com/muxanz/music-festival#readme",
+  "devDependencies": {
+    "sass": "^1.80.3"
+  }
+}
