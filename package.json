@@ -2,9 +2,12 @@
   "name": "music-festival",
   "version": "1.0.0",
   "description": "Proyecto con SASS",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch src/scss:build/css",
+    "dev": "gulp dev"
   },
   "repository": {
     "type": "git",
@@ -22,6 +25,8 @@
   },
   "homepage": "https://github.com/muxanz/music-festival#readme",
   "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
     "sass": "^1.80.3"
   }
 }
