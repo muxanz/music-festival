@@ -5,6 +5,7 @@
    background-color: v.$verde;
 
    .contenido-header {
+      @include m.contenedor;
       padding: 2rem;
       @include m.tablet {
          display: flex;

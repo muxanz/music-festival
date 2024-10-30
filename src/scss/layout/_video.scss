@@ -30,6 +30,7 @@
 }
 
 .contenido-video {
+   @include m.contenedor;
    z-index: 1;
    h2 {
       color: v.$blanco;
